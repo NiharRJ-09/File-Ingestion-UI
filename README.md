@@ -1,59 +1,142 @@
-# FileIngestionUi
+[file-ingestion-ui.md](https://github.com/user-attachments/files/21996555/file-ingestion-ui.md)
+# File-Ingestion-UI
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+A modern Angular web application for file upload and ingestion management, built with Angular CLI 20.1.6.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- Interactive file upload interface
+- Real-time file processing status
+- Responsive design with modern UI components
+- Built with Angular 20.x for optimal performance
+- TypeScript support for enhanced development experience
 
+## 📋 Prerequisites
+
+- **Node.js** >= 18.0.0
+- **npm** >= 9.0.0
+- **Angular CLI** 20.1.6
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/NiharRJ-09/File-Ingestion-UI.git
+   cd File-Ingestion-UI
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Install Angular CLI globally (if not already installed)**
+   ```bash
+   npm install -g @angular/cli@20.1.6
+   ```
+
+## 🏃‍♂️ Running the Application
+
+### Development Server
+Start the development server:
 ```bash
 ng serve
 ```
+Navigate to `http://localhost:4200/`. The application will automatically reload when you modify source files.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
+### Production Build
+Build the project for production:
 ```bash
 ng build
 ```
+The build artifacts will be stored in the `dist/` directory, optimized for performance and speed.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🧪 Testing
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+### Unit Tests
+Run unit tests using Karma test runner:
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+### End-to-End Tests
+Execute e2e tests:
 ```bash
 ng e2e
 ```
+*Note: Angular CLI doesn't include an e2e testing framework by default. Choose one that suits your needs (Cypress, Protractor, etc.).*
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🏗️ Code Scaffolding
 
-## Additional Resources
+Generate new Angular components:
+```bash
+ng generate component component-name
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Generate other schematics:
+```bash
+ng generate directive directive-name
+ng generate service service-name
+ng generate pipe pipe-name
+```
+
+For a complete list of available schematics:
+```bash
+ng generate --help
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Application components and modules
+├── assets/              # Static assets (images, fonts, etc.)
+├── environments/        # Environment-specific configurations
+├── index.html          # Main HTML file
+├── main.ts             # Application bootstrap
+└── styles.scss         # Global styles
+```
+
+## 🛠️ Technology Stack
+
+- **Frontend Framework**: Angular 20.x
+- **Language**: TypeScript (31.9%)
+- **Templating**: HTML (64.0%)
+- **Styling**: SCSS (4.1%)
+- **Build Tool**: Angular CLI
+- **Testing**: Karma + Jasmine
+
+## 🔧 Configuration
+
+- Environment configurations can be found in `src/environments/`
+- Global styles are located in `src/styles.scss`
+- Application routing is configured in `src/app/app-routing.module.ts`
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📚 Additional Resources
+
+- [Angular CLI Documentation](https://angular.io/cli)
+- [Angular Developer Guide](https://angular.io/guide/developer-guide-overview)
+- [Angular CLI Command Reference](https://angular.io/cli/generate)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**NiharRJ-09**
+- GitHub: [@NiharRJ-09](https://github.com/NiharRJ-09)
+
+## 📊 Repository Stats
+
+- Language: HTML (64.0%), TypeScript (31.9%), SCSS (4.1%)
+- Status: Active Development
+- Framework: Angular 20.x
